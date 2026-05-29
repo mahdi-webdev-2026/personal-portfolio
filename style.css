@@ -293,3 +293,47 @@ section h2{
 #interests{
     text-align:center;
 }
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.project-status{
+    display:inline-block;
+    margin-top:15px;
+    padding:8px 14px;
+    border-radius:999px;
+    font-size:0.85rem;
+}
+
+.completed{
+    background:rgba(34,197,94,.15);
+    color:#4ade80;
+}
+
+.upcoming{
+    background:rgba(59,130,246,.15);
+    color:#60a5fa;
+}
+
+.contact-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:30px;
+}
+
+.contact-location{
+    text-align:center;
+    color:#94a3b8;
+}
+
+.project-card{
+    transition:all .3s ease;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+}
