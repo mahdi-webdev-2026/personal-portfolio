@@ -359,3 +359,15 @@ footer h3{
 footer p{
     margin:8px 0;
 }
+@media (max-width: 768px) {
+
+    .hero {
+        padding-top: 220px;
+    }
+
+    .profile-image {
+        width: 180px;
+        height: 180px;
+    }
+
+}
