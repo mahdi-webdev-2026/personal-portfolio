@@ -337,44 +337,7 @@ section h2{
 .project-card:hover{
     transform:translateY(-8px);
 }
-#timeline{
-    text-align:center;
-}
 
-.timeline{
-    max-width:900px;
-    margin:50px auto;
-}
-
-.timeline-item{
-    display:flex;
-    align-items:center;
-    gap:25px;
-
-    margin-bottom:25px;
-
-    background:rgba(255,255,255,.05);
-
-    border:1px solid rgba(255,255,255,.08);
-
-    padding:20px;
-
-    border-radius:18px;
-}
-
-.timeline-year{
-    min-width:90px;
-
-    font-size:1.3rem;
-
-    font-weight:700;
-
-    color:#60a5fa;
-}
-
-.timeline-content{
-    text-align:left;
-}
 footer{
 
     margin-top:120px;
