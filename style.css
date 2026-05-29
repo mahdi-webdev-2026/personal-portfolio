@@ -218,3 +218,44 @@ section h2{
     }
 
 }
+.hero-location{
+    color:#94a3b8;
+    margin-bottom:15px;
+}
+
+.badge-container{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
+
+.badge{
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.1);
+
+    padding:10px 16px;
+
+    border-radius:999px;
+
+    font-size:0.9rem;
+}
+
+#quick-facts{
+    padding-top:80px;
+}
+
+#quick-facts h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+#quick-facts .skill-card{
+    text-align:center;
+}
+
+#quick-facts h3{
+    font-size:2rem;
+    color:#60a5fa;
+}
