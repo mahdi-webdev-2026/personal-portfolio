@@ -378,3 +378,20 @@ footer p{
     }
 
 }
+.project-links{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    margin-top:15px;
+
+    margin-bottom:15px;
+}
+
+.project-links .btn{
+
+    text-decoration:none;
+}
